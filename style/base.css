@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: rgba(74, 143, 175, 0.637);
+  padding: 10px 20px 0px;
+}
+.header {
+  background-color: rgba(68, 147, 184, 0.562);
+  min-height: 150px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+
+}
+.footer {
+  background-color: rgba(68, 147, 184, 0.562);
+  min-height: 50px;
+}
+
+#doutor {
+  width: 250px;
+  float: left;
+  margin: 5px;
+}
+
+#sobre{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin: 5px;
+}
+#atendimento{
+  width: 450px;
+  height: 200px;
+  float: left;
+  margin: 5px;
+}
+
+#title-table{
+  color: #f1f1f1;
+  background-color: black;
+}
+#contact{
+  width: 300px;
+  float: left;
+  margin: 5px;
+}
+table{
+  margin-left:auto ;
+  margin-right: auto;
+}
+ul li {
+  list-style: none;
+  margin: 15px;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ 
+tbody tr:hover{
+  background-color: rgba(134, 207, 230, 0.712);
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+  padding: 3px;
+}
+
+form{
+  text-align: center;
+}
+label, input {
+  margin: 5px;
+}
